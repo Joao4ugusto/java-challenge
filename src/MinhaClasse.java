@@ -5,7 +5,7 @@ public class MinhaClasse {
 
         System.out.println(NomeCompleto(PrimeiroNome, SegundoNome));
     }
-    public static String NomeCompleto(String PrimeiroNome, String SegundoNome){
+   public static String NomeCompleto(String PrimeiroNome, String SegundoNome){
         return "Nome da pessoa é: " + PrimeiroNome.concat(" ").concat(SegundoNome);
     }
 }
